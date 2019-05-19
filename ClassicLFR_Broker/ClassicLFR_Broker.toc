@@ -1,0 +1,11 @@
+## Interface: 80100
+## Author: cqwrteur
+## Title: ClassicLFR Broker
+## Version: r2016
+## Dependencies: ClassicLFR
+
+#@no-lib-strip@
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+#@end-no-lib-strip@
+
+Core.lua

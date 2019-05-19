@@ -1,0 +1,19 @@
+## Interface: 80100
+## Author: cqwrteur
+## Title: ClassicLFR Options
+## Version: r2016
+## SavedVariables: ClassicLFR_OptionsDB
+## LoadOnDemand: 1
+## X-LFG-MESSAGE: LFG_ChatCommand,LFG_ICON_LEFT_CLICK,LFG_UPDATE_EDITING
+
+#@no-lib-strip@
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceTimer-3.0\AceTimer-3.0.xml
+#@end-no-lib-strip@
+
+Init.lua
+module.xml
+Core.lua

@@ -1,0 +1,7 @@
+## Interface: 80100
+## Author: cqwrteur
+## Title: ClassicLFR Auto
+## Version: r2016
+## LoadOnDemand: 1
+
+Core.lua

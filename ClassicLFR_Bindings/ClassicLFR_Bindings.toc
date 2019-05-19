@@ -1,0 +1,6 @@
+## Interface: 80100
+## Author: cqwrteur
+## Title: ClassicLFR Bindings
+## Version: r2016
+
+Core.lua

@@ -1,0 +1,88 @@
+<Bindings>
+	<Binding name="ClassicLFR_show_hide" header = "ClassicLFR" category="ADDONS">
+		local AceConfigDialog = LibStub("AceConfigDialog-3.0")
+		if AceConfigDialog.OpenFrames.ClassicLFR then
+			AceConfigDialog:Close("ClassicLFR")
+		else
+			local ClassicLFR = LibStub("AceAddon-3.0"):GetAddon("ClassicLFR")
+			ClassicLFR:ChatCommand()
+		end
+	</Binding>
+	<Binding name="Random Hop" category="ADDONS">
+		if StaticPopup_Visible("ClassicLFR_HardwareAPIDialog") then
+			StaticPopupDialogs.ClassicLFR_HardwareAPIDialog.OnAccept()
+			StaticPopup_Hide("ClassicLFR_HardwareAPIDialog")
+		elseif LFGListInviteDialog:IsShown() then
+			LFGListInviteDialog_Accept(LFGListInviteDialog)
+		else
+			LibStub("AceEvent-3.0"):SendMessage("LFG_ICON_RIGHT_CLICK",0)
+		end
+	</Binding>
+	<Binding name="Random Rare" category="ADDONS">
+		if StaticPopup_Visible("ClassicLFR_HardwareAPIDialog") then
+			StaticPopupDialogs.ClassicLFR_HardwareAPIDialog.OnAccept()
+			StaticPopup_Hide("ClassicLFR_HardwareAPIDialog")
+		elseif LFGListInviteDialog:IsShown() then
+			LFGListInviteDialog_Accept(LFGListInviteDialog)
+		else
+			LibStub("AceEvent-3.0"):SendMessage("LFG_ICON_RIGHT_CLICK",1)
+		end
+	</Binding>
+	<Binding name="Scan Your Realm" category="ADDONS">
+		LibStub("AceEvent-3.0"):SendMessage("LFG_ICON_RIGHT_CLICK")
+	</Binding>
+	<Binding name="ACCEPT" category="ADDONS">
+		if StaticPopup_Visible("ClassicLFR_HardwareAPIDialog") then
+			StaticPopupDialogs.ClassicLFR_HardwareAPIDialog.OnAccept()
+			StaticPopup_Hide("ClassicLFR_HardwareAPIDialog")
+		elseif LFGListInviteDialog:IsShown() then
+			LFGListInviteDialog_Accept(LFGListInviteDialog)
+		end
+	</Binding>
+	<Binding name="CANCEL" category="ADDONS">
+		StaticPopup_Hide("ClassicLFR_HardwareAPIDialog")
+	</Binding>
+	<Binding name="START_A_GROUP" category="ADDONS">
+		if StaticPopup_Visible("ClassicLFR_HardwareAPIDialog") then
+			StaticPopupDialogs.ClassicLFR_HardwareAPIDialog.OnAccept()
+			StaticPopup_Hide("ClassicLFR_HardwareAPIDialog")
+		end
+	</Binding>
+	<Binding name="LFG_LIST_SEARCH_AGAIN" category="ADDONS">
+		local ClassicLFR_Options = LibStub("AceAddon-3.0"):GetAddon("ClassicLFR_Options",true)
+		if ClassicLFR_Options then
+			local sr = ClassicLFR_Options.option_table.args.search_result
+			if sr then
+				sr.args.search_again.func()
+			end
+		end
+	</Binding>
+	<Binding name="INVITE" category="ADDONS">
+		local ClassicLFR_Options = LibStub("AceAddon-3.0"):GetAddon("ClassicLFR_Options",true)
+		if ClassicLFR_Options then
+			local requests = ClassicLFR_Options.option_table.args.requests
+			if requests then
+				local func = requests.args.applicants.values
+				local tb = func()
+				local first = next(tb)
+				if first then
+					C_LFGList.InviteApplicant(first)
+				end
+			end
+		end
+	</Binding>
+	<Binding name="DECLINE" category="ADDONS">
+		local ClassicLFR_Options = LibStub("AceAddon-3.0"):GetAddon("ClassicLFR_Options",true)
+		if ClassicLFR_Options then
+			local requests = ClassicLFR_Options.option_table.args.requests
+			if requests then
+				local func = requests.args.applicants.values
+				local tb = func()
+				local first = next(tb)
+				if first then
+					C_LFGList.DeclineApplicant(first)
+				end
+			end
+		end
+	</Binding>
+</Bindings>

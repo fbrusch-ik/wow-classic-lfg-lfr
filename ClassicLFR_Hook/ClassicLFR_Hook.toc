@@ -1,0 +1,11 @@
+## Interface: 80100
+## Author: cqwrteur
+## Title: ClassicLFR Hook
+## Version: r2016
+## Dependencies: ClassicLFR
+
+#@no-lib-strip@
+Libs\AceHook-3.0\AceHook-3.0.xml
+#@end-no-lib-strip@
+
+Core.lua

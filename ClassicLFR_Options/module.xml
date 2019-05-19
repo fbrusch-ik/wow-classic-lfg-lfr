@@ -1,0 +1,22 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Include file="locale\locale.xml"/>
+	<Script file="paste\paste.lua"/>
+	<Script file="armory\armory.lua"/>
+	<Include file="ui\ui.xml"/>
+	<Script file="filters\filters.lua"/>
+	<Script file="role\role.lua"/>
+	<Script file="find\find.lua"/>
+	<Script file="encounters\encounters.lua"/>
+	<Script file="advanced\advanced.lua"/>
+	<Script file="languages\languages.lua"/>
+	<Script file="sf\sf.lua"/>
+	<Script file="rf\rf.lua"/>
+	<Script file="cr\cr.lua"/>
+	<Script file="sort\sort.lua"/>
+	<Script file="auto\auto.lua"/>
+	<Script file="background\background.lua"/>
+	<Script file="search_results\search_results.lua"/>
+	<Script file="applicant\applicant.lua"/>
+	<Script file="m+\m+.lua"/>
+</Ui>

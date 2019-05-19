@@ -1,0 +1,8 @@
+## Interface: 80100
+## Author: cqwrteur
+## Title: ClassicLFR Cross Realm
+## LoadOnDemand: 1
+## X-LFG-MESSAGE: LFG_ICON_RIGHT_CLICK
+## Version: r2016
+
+Core.lua

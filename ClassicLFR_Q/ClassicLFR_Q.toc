@@ -1,0 +1,8 @@
+## Interface: 80100
+## Author: cqwrteur
+## Title: ClassicLFR Quest
+## Version: r2016
+## LoadOnDemand: 1
+## X-LFG-EVENT: QUEST_ACCEPTED
+
+Core.lua

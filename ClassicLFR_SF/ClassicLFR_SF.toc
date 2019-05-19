@@ -1,0 +1,7 @@
+## Interface: 80100
+## Author: cqwrteur
+## Title: ClassicLFR Spam Filter
+## Version: r2016
+## Dependencies: ClassicLFR
+
+Core.lua

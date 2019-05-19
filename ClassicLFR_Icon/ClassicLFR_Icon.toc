@@ -1,0 +1,12 @@
+## Interface: 80100
+## Author: cqwrteur
+## Title: ClassicLFR Icon
+## Version: r2016
+## SavedVariablesPerCharacter: ClassicLFR_IconCharacterDB
+## Dependencies: ClassicLFR_Broker
+
+#@no-lib-strip@
+Libs\LibDBIcon-1.0\lib.xml
+#@end-no-lib-strip@
+
+Core.lua
