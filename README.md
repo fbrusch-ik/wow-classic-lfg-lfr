@@ -7,8 +7,8 @@ This worked for Raids (LFR) and Dungeons (LFG) just like it did with battlegroun
 
 However soon a version of wow based on the classic experience will be released, unfortunately this version will be missing that feature, a heavy blow for convenience :(
 
-## BUT FEAR NOT, 
-I,  InsaneKane have used my beta access to create an addon that works in the classic beta already and will only be better and more used by launch !
+## BUT FEAR NOT, I,  InsaneKane
+have used my beta access to create an addon that works in the classic beta already and will only be better and more used by launch !
 
 It allows you to queue with the press of and button and be matched with the perfect members for your group IN MOMENTS
 
