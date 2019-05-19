@@ -7,11 +7,11 @@ This worked for Raids (LFR) and Dungeons (LFG) just like it did with battlegroun
 
 However soon a version of wow based on the classic experience will be released, unfortunately this version will be missing that feature, a heavy blow for convenience :(
 
-# BUT FEAR NOT, i InsaneKane have used my beta access to create an addon that works in the classic beta already and will only be better and more used by launch !
+# BUT FEAR NOT, I,  InsaneKane have used my beta access to create an addon that works in the classic beta already and will only be better and more used by launch !
 
-# It allows you to queue with the press of and button and be matched with the perfect members for your group IN MOMENTS
+It allows you to queue with the press of and button and be matched with the perfect members for your group IN MOMENTS
 
-# no more waiting for a healer in ironforge or being depressed by how sad orgrimmar looks in classic, noone exlcuding you because your gear isnt good enough, no more boredom wishing you had back pet battles, noone ragging on you because you ninjaloot all the damn time.
+no more waiting for a healer in ironforge or being depressed by how sad orgrimmar looks in classic, noone exlcuding you because your gear isnt good enough, no more boredom wishing you had back pet battles, noone ragging on you because you ninjaloot all the damn time.
 
 JUST PURE FUN
 
